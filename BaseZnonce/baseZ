@@ -1,4 +1,4 @@
-#This simple code takes a string as input and outputs the optimal baseX
+# This simple code takes a string as input and outputs the optimal baseX
 
 def get_optimal_baseX(string):
     alphabet = string.encode()
@@ -18,4 +18,4 @@ optimal_baseX = get_optimal_baseX(string)
 print('Optimal baseX for string "{}" is {}'.format(string, optimal_baseX))
 # Output: Optimal baseX for string "Hello World!" is 12
 
-#By Josef Kulovany - https://zchg.org
+# By Josef Kulovany - https://zchg.org - DO NOT REMOVE!
