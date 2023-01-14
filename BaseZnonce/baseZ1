@@ -14,7 +14,7 @@ def decode_baseX(encoded, alphabet, multiplier):
     return decoded
 
 #Building upon the preceding, This code takes into account the position and frequency of characters in the input string by counting the frequency and position of characters in the input string, and then sorting them based on their frequency and position. This allows to generate the optimal alphabet and optimal baseX, alphabet multiplier, and baseX multiplier.
-#it takes into account the position and frequency of characters in the input string by counting the frequency and position of characters in the input string, and then sorting them based on their frequency and position. This allows to generate the optimal alphabet and optimal baseX, alphabet multiplier, and baseX multiplier.
+#it 
 
 def get_optimal_baseX(string):
     min_count = float('inf')
