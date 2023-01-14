@@ -1,21 +1,5 @@
 # This is a script that encodes and decodes strings using a custom base-X representation. The script includes functions for encoding and decoding using an alphabet, a multiplier for the alphabet, and a multiplier for the base-X representation. It also includes a fitness function that calculates the difference in length and entropy between the original string and the encoded string. The script also includes a function called get_optimal_baseX that finds the optimal values for alphabet, baseX, alphabet multiplier, and baseX multiplier based on the input string and returns the encoded string along with a unique code that represents the values used for encoding.
 
-def encode_baseX(number, alphabet):
-    encoded = ''
-    while number > 0:
-        encoded = alphabet[number % len(alphabet)].decode() + encoded
-        number //= len(alphabet)
-    return encoded
-
-def decode_baseX(encoded, alphabet, multiplier):
-    decoded = 0
-    for i, c in enumerate(reversed(encoded)):
-        decoded += (alphabet.index(c.encode()) + multiplier) * len(alphabet)**i
-    return decoded
-
-#Building upon the preceding, This code takes into account the position and frequency of characters in the input string by counting the frequency and position of characters in the input string, and then sorting them based on their frequency and position. This allows to generate the optimal alphabet and optimal baseX, alphabet multiplier, and baseX multiplier.
-#it takes into account the position and frequency of characters in the input string by counting the frequency and position of characters in the input string, and then sorting them based on their frequency and position. This allows to generate the optimal alphabet and optimal baseX, alphabet multiplier, and baseX multiplier.
-
 import base64
 import math
 import random
