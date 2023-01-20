@@ -1,3 +1,11 @@
+Euler's Formula is a mathematical formula in complex analysis and number theory, named after the Swiss mathematician Leonhard Euler. Euler's formula states that:
+
+e^(ix) = cos(x) + isin(x)
+
+where e is the base of the natural logarithm (approximately 2.718), x is any real number, i is the imaginary unit (the square root of -1), cos(x) is the cosine of x, and sin(x) is the sine of x.
+
+This formula relates five of the most important mathematical constants: e, pi, -1, 0 and 1, and connects two of the most important mathematical functions: exponential and trigonometric functions. Euler's formula is widely used in many areas of mathematics, physics, engineering and other fields, including signal processing, control theory, and quantum mechanics.
+
 This code defines three functions, encode_baseX, decode_baseX, and optimize_baseX, which are used to perform a type of base conversion on strings of characters. The functions use the string and cmath modules to accomplish this.
 
 The encode_baseX function takes an input string and several optional parameters: alphabet_size, base_size, alphabet_multiplier, and base_multiplier. It first defines an alphabet of characters to use, which is a combination of ASCII letters, digits, and punctuation. It then initializes an empty encoded string and a number to zero. The function iterates through each character in the input string, using the exp function from the cmath module to convert the index of the character in the alphabet to a complex number, and adding the result to the number. Next, the function enters a loop that continues until the number is greater than zero. In each iteration of the loop, the function uses the real attribute of the number, the length of the alphabet, and modulo arithmetic to find the next character of the encoded string, which is added to the front of the encoded string. Finally, the function returns the encoded string.
