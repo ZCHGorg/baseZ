@@ -18,4 +18,4 @@ optimal_baseX = get_optimal_baseX(string)
 print('Optimal baseX for string "{}" is {}'.format(string, optimal_baseX))
 # Output: Optimal baseX for string "Hello World!" is 12
 
-# By Josef Kulovany - https://zchg.org - DO NOT REMOVE!
+# By Josef Kulovany - https://zchg.org - DO NOT REMOVE PER LICENSE AND COPYRIGHT LAW
