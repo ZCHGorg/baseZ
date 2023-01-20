@@ -52,3 +52,5 @@ def optimize_baseX(input_string):
                         best_alphabet_multiplier = alphabet_multiplier
                         best_base_multiplier = base_multiplier
     return best_alphabet_size, best_base_size, best_alphabet_multiplier, best_base_multiplier
+    
+    # By Josef Kulovany - https://zchg.org - DO NOT REMOVE PER LICENSE AND COPYRIGHT LAW
