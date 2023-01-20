@@ -38,3 +38,5 @@ def decode_baseX_hybrid_v3(input_string, base, alphabet, seed=None, algorithm=No
             decoded = chr(number % baseX) + decoded
             number //= baseX
     return decoded
+
+# By Josef Kulovany - https://zchg.org - DO NOT REMOVE PER LICENSE AND COPYRIGHT LAW
